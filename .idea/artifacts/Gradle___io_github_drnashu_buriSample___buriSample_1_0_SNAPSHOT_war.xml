@@ -1,0 +1,44 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : io.github.drnashu:buriSample : buriSample-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/buriSample</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="buriSample-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="buriSample/web/Web Gradle : buriSample-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="buriSample" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/io/github/drmashu/buri/0.1-SNAPSHOT/buri-0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-hpack/9.3.2.v20150730/ee86c2d50fd7efa079182840d7e86ae15ab1829d/http2-hpack-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/0.14.449/5b3fbac3cd9c019ed24e40fe69ea64fcf1d051a7/kotlin-stdlib-0.14.449.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-server/9.3.2.v20150730/f0c5887ef5ea8503ae74d6c094886a87875109b1/http2-server-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.2.v20150730/22bd4ad4856527847772f975a997f17da1e6766/jetty-io-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.3.2.v20150730/b43bc3a2fcabd1eb04a522b251d98efd010a2c0f/websocket-server-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.3.2.v20150730/be1525f9e86d45ff163394c573ff46773fb40812/websocket-api-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.2.v20150730/a7ce8b11d340e152dd7dc94e7605c84230f05cf5/jetty-servlet-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.2.v20150730/96eab74d8886ee9d51b6a3eeab9744807e842169/jetty-util-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/io/github/drmashu/dikon/0.1-SNAPSHOT/dikon-0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.salomonbrys.kotson/kotson/1.3.1/1411c200339a22a626cd964ff3233afa32ddd3a1/kotson-1.3.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/0.14.449/ac48aaaf7373c9b7a48d914623fab6da988462de/kotlin-runtime-0.14.449.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-common/9.3.2.v20150730/54fd693010d8c02249e74d3a6d7990d8acdbe4d7/http2-common-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.2.v20150730/d53622049200cee5c344b29c848d581aa876f93e/jetty-server-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.3.2.v20150730/bd2abf31292508104bacfaba7eceb88d7d5f9ad0/websocket-common-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.3.2.v20150730/f7cdf36509f8b9d8de49ed60dcb215aa92c36e41/websocket-client-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.3.2.v20150730/403f4956c46fc5d76257148b5ad36c1e1ca485cd/websocket-servlet-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.2.v20150730/5a811cf50295ddae7df488e62662524380f18821/jetty-http-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.2.v20150730/194f37706614f236bfbf384c1e7cf531771b38f7/jetty-security-9.3.2.v20150730.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/0.14.449/7084114524899c899869994eac053a3549111675/kotlin-reflect-0.14.449.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/buriSample/exploded/buriSample-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

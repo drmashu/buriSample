@@ -9,7 +9,7 @@ import io.github.drmashu.dikon.Injection
 public class Sample : Buri() {
     override val config: Map<String, Factory<*>>
         get() =mapOf(
-                Pair("/", Injection(pages.template::class)),
-                Pair("list", Holder(listOf("aa", "bb", "cc")))
+                "/" to Injection(pages.template::class),
+                "list" to Holder(listOf("aa", "bb", "cc"))
         )
 }

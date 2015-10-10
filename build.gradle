@@ -42,7 +42,7 @@ task precompileBuriteri << {
             destdir:"src/gen/kotlin",
             packagename:"pages")
 }
-build.dependsOn precompileBuriteri
+compileKotlin.dependsOn precompileBuriteri
 sourceSets {
     main.kotlin.srcDirs += 'src/gen/kotlin'
 }
